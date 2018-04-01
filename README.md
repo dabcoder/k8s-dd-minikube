@@ -1,6 +1,6 @@
 # k8s-dd-minikube
 
-### Start minikube and use the its Docker daemon:
+### Start minikube and use its Docker daemon:
 
 ```
 minikube start
@@ -11,10 +11,10 @@ eval $(minikube docker-env)
 
 ### Build the web app Docker image  
 
-`cd` in the web directory. Then run:
+`cd` in the `web` directory. Then run:
 
 ```
-docker build -t web-flask:v1 
+docker build -t web-flask:v1 .
 ```
 
 
